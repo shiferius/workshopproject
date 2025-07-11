@@ -1,9 +1,6 @@
 extends CharacterBody3D
 
-
 @onready var camera_3d = $head/Camera3D
-
-
 
 # Movement
 const MAX_VELOCITY_AIR = 0.6
@@ -19,15 +16,6 @@ var friction = 4
 var wish_jump
 var walking = false
 
-var dead = false
-
-var hotkeys = {
-	KEY_1: 0,
-	KEY_2: 1,
-	KEY_3: 2,
-	KEY_4: 3,
-	KEY_6: 4
-}
 
 # Camera
 var sensitivity = 0.05
