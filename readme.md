@@ -6,3 +6,6 @@ Assets:
 
 3D
 https://elbolilloduro.itch.io/mine
+
+Character controller:
+https://github.com/EthanTheEnigma/quake-godot-4-tutorial
